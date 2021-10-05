@@ -1,0 +1,98 @@
+/* Variaveis */
+:root{
+    --cor-focus: #67b1e2;
+    --cor-login: rgb(61, 167, 29);
+    --cor-border: #3498db;
+    --cor-signup: #3498db;
+}
+/* Definições do Body */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../Image/game2.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 3%, 93%);
+   
+
+}
+/* Definições do form box */
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #3d3c3cd2;
+    text-align: center;
+    border-radius: 2%;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight:  500;
+}
+/* Definições dos inputs text e password */
+.box input[type = "text"], .box input[type = 'password']{
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--cor-border);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]::placeholder, .box input[type = 'password']::placeholder{
+    color: rgb(255, 255, 255);
+
+}
+
+.box input[type = "text"]:focus, .box input[type = 'password']:focus{
+    width: 280px;
+    border-color: var(--cor-focus);
+   
+
+}
+/* Definições do input submit */
+.box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--cor-login);
+    padding: 14px 40px;
+    width: 170px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.box input[type = "submit"]:hover{
+    background: var(--cor-login);
+}
+/* Definções do span cadastro */
+.cadastro{
+    color: white;
+}
+.cadastro a{
+    color: #3498db;
+    text-decoration: none;
+}
+.cadastro a:hover{
+    color: #67b1e2;
+    text-decoration: underline;
+}
