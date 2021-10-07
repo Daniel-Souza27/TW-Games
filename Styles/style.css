@@ -16,13 +16,14 @@ body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-image: url(../Image/backgroundedit.jpg);
     background-color: #b8b8b8;
-    
+    min-width: 1010px;
    
 }
 
 /* Formatação de cabeçalho*/
 .cabecalho{
     width: 100%;
+    min-width: 1010px;
     height: 100px;
     background-color: #a10404;
     border: 1px solid black;
@@ -147,6 +148,7 @@ body{
     border: 1px solid black;
 }
 /* Formatação do Conteudo*/
+
 
 .area-postagens{
    
